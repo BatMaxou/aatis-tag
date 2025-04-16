@@ -1,0 +1,20 @@
+
+{
+    "name": "aatis/tag",
+    "type": "library",
+    "description": "Tag handling of Aatis",
+    "authors": [
+        {
+            "name": "Maxime Batista",
+            "email": "maximebatista.lycee@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aatis\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.2"
+    }
+}

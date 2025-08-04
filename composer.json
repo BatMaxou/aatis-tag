@@ -1,8 +1,7 @@
-
 {
     "name": "aatis/tag",
     "type": "library",
-    "description": "Tag handling of Aatis",
+    "description": "Base Tag handling of Aatis",
     "authors": [
         {
             "name": "Maxime Batista",
@@ -15,6 +14,7 @@
         }
     },
     "require": {
-        "php": ">=8.2"
+        "php": ">=8.2",
+        "aatis/parameter-bag": "^1.0"
     }
 }
